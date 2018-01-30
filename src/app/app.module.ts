@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { DataTablesModule } from 'angular-datatables';
 
 //For API
 import { HttpModule }    from '@angular/http';
@@ -21,7 +22,8 @@ import { AppComponent } from './app.component';
   imports: [
     BrowserModule,
     app_routing,
-    HttpModule
+    HttpModule,
+    DataTablesModule
   ],
   providers: [],
   bootstrap: [AppComponent]
